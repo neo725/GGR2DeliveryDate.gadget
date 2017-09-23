@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    width: 130px;
+    height: 141px;
+	overflow: hidden;
+}
+
+#widget_text {
+    width: 116px;
+    height: 116px;
+    top: 19px;
+    left: 5px;
+    position: absolute;
+    font-size: 12px;
+    padding-top: 3px;
+}
+#widget_text div {
+    text-align: center;
+    padding-top: 5px;
+}
+#widget_text .text {
+    width: 100%;
+    background-color: gray;
+    color: #ffffff;
+    padding-bottom: 4px;
+    border-radius: 25px;
+}
+#widget_text div.date {
+    font-size: 40px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 900;
+}
+#widget_text div.year {
+    font-size: 23px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#car_bg {
+    width: 110px;
+    height: 110px;
+    top: 21px;
+    left: 5px;
+}
+#car_bg.g2-black {
+    background-image: url('../images/g2-black.png');
+    opacity: 0.2;
+}
+#car_bg.g2-white {
+    background-image: url('../images/g2-white.png');
+    opacity: 0.2;
+}
+#car_bg.g2plus-black {
+    background-image: url('../images/g2plus-black.png');
+    opacity: 0.2;
+}
+#car_bg.g2plus-white {
+    background-image: url('../images/g2plus-white.png');
+    opacity: 0.2;
+}
+#car_bg.g2plus-blue {
+    background-image: url('../images/g2plus-blue.png');
+    opacity: 0.2;
+}
+#car_bg.g2plus-green {
+    background-image: url('../images/g2plus-green.png');
+    opacity: 0.2;
+}
+#car_bg.g2plus-orange {
+    background-image: url('../images/g2plus-orange.png');
+    opacity: 0.2;
+}
+#car_bg.g2plus-red {
+    background-image: url('../images/g2plus-red.png');
+    opacity: 0.2;
+}

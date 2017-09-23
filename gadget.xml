@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gadget>
+  <name>Gogoro2 交車安排查詢</name>
+  <version>1.0</version>
+  <author name="Neo Chang">
+    <info url="neo725@gmail.com" />
+  </author>
+  <copyright>© 2017.</copyright>
+  <description>線上自動更新交車安排日期，資料來源為 Gogoro 官方網站，詳請參考網址：https://www.gogoro.com/tw/event/gogoro2-delivery/</description>
+  <icons>
+    <icon width="128" height="128" src="icon.png" />
+  </icons>
+  <hosts>
+    <host name="sidebar">
+      <base type="HTML" apiVersion="1.0.0" src="gadget.html" />
+      <permissions>full</permissions>
+      <platform minPlatformVersion="0.3" />
+      <defaultImage src="dock.png" />
+      <autoscaleDPI>true</autoscaleDPI>
+    </host>
+  </hosts>
+</gadget>
